@@ -158,8 +158,8 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  margin:  0;
+  max-height: 39px;
 }
 
 .main-pages {
@@ -822,7 +822,6 @@ h6 {
   color: #e2effe;
   font-weight: 500;
   font-size: 14px;
-  text-transform: uppercase;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
@@ -1410,4 +1409,8 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
+}
+
+.h-25 {
+    height: 10% !important;
 }
