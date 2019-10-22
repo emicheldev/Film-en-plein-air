@@ -173,7 +173,7 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background: url("../img/films/drames/1.jpg") center top no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -1413,4 +1413,16 @@ h6 {
 
 .footer-info img {
     height: 10% !important;
+}
+
+/* Ajouter par michel */
+
+.circletransp{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 50%;
 }
