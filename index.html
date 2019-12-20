@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>NewBiz Bootstrap Template</title>
+  <title>Association de projection de films en plein air.</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -12,7 +12,7 @@
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
           <li class="active"><a href="#intro">Accueil</a></li>
-          <li><a href="#portfolio">Actualité</a></li>
+          <li><a href="#why-us">Actualité</a></li>
           <li><a href="#about">A propos</a></li>
           <li><a href="#team">Notre Equipe</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -69,7 +69,7 @@
       <div class="intro-info">
         <h2>Projections De <span>Films</span> <br> En Plein Air </h2>
         <div>
-          <a href="#about" class="btn-get-started scrollto">Programme</a>
+          <a href="#portfolio" class="btn-get-started scrollto">Programme</a>
           <a href="#services" class="btn-services scrollto">S'inscrire</a>
         </div>
       </div>
@@ -86,16 +86,17 @@
       <div class="container">
 
         <header class="section-header">
-          <h3 class="section-title">Actualité</h3>
+          <h3 class="section-title">Programme</h3>
         </header>
 
         <div class="row"> 
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">Tout</li>
-              <li data-filter=".filter-app">Comédie </li>
-              <li data-filter=".filter-card">Fantastique </li>
-              <li data-filter=".filter-web">Drame</li>
+              <li data-filter=".filter-app">Lundi 5 août  </li>
+              <li data-filter=".filter-card">Mardi 6 août  </li>
+              <li data-filter=".filter-web">Mercredi 7 août </li>
+              <li data-filter=".filter-jeud">Jeudi 8 août </li>
             </ul>
           </div>
         </div>
@@ -112,12 +113,11 @@
                   <i class="ion-ios-star text-warning"></i>
                   <i class="ion-ios-star text-warning"></i>
                   <i class="ion-ios-star text-warning"></i>
-                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star"></i>
                 </div>
-                <p>Rose est une passagère de première classe qui tente de se suicider pour se libérer des contraintes imposées par son entourage... </p>
-                <div>
-                  <a href="img/portfolio/app1.jpg" data-lightbox="portfolio img-fluid" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <p>Rose est une passagère de première classe qui tente de se suicider pour se libérer des contraintes imposées par son entourage... <a href="detailfilm.html">Lire plus</a> </p>
+                <div class="text-warning">
+                  18h00
                 </div>
               </div>
             </div>
@@ -128,25 +128,37 @@
             <div class="portfolio-wrap">
               <img src="img/films/drames/2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Web 3</a></h4>
-                <p>Web</p>
-                <div>
-                  <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <h4><a href="#">Poisson d'avril</a></h4>
+                <div class="stars">
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, voluptatem? <a href="detailfilm.html">Lire plus</a> </p>
+                <div class="text-warning">
+                  18h00
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-jeud" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <img src="img/films/informatiques/imitation-game.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">App 2</a></h4>
-                <p>App</p>
-                <div>
-                  <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <h4><a href="#">The imitation game</a></h4>
+                <div class="stars">
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star"></i>
+                  <i class="ion-ios-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, expedita... <a href="#!">Lire plus</a>  </p>
+                <div class="text-warning">
+                  19h00
                 </div>
               </div>
             </div>
@@ -156,11 +168,17 @@
             <div class="portfolio-wrap">
               <img src="img/films/comedies/1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Card 2</a></h4>
-                <p>Card</p>
-                <div>
-                  <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <h4><a href="#">Inséparable</a></h4>
+               <div class="stars">
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star"></i>
+                  <i class="ion-ios-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, expedita... <a href="#!">Lire plus</a>  </p>
+                <div class="text-warning">
+                  20h10
                 </div>
               </div>
             </div>
@@ -170,11 +188,17 @@
             <div class="portfolio-wrap">
               <img src="img/films/comedies/2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Web 2</a></h4>
-                <p>Web</p>
-                <div>
-                  <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <h4><a href="#">Intouchable</a></h4>
+                <div class="stars">
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star"></i>
+                  <i class="ion-ios-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, expedita... <a href="#!">Lire plus</a>  </p>
+                <div class="text-warning">
+                  19h00
                 </div>
               </div>
             </div>
@@ -184,11 +208,17 @@
             <div class="portfolio-wrap">
               <img src="img/films/comedies/3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">App 3</a></h4>
-                <p>App</p>
-                <div>
-                  <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <h4><a href="#">premièr d'la classe</a></h4>
+                <div class="stars">
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star"></i>
+                  <i class="ion-ios-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, expedita... <a href="#!">Lire plus</a>  </p>
+                <div class="text-warning">
+                  19h00
                 </div>
               </div>
             </div>
@@ -198,11 +228,17 @@
             <div class="portfolio-wrap">
               <img src="img/films/enfants/1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Card 1</a></h4>
-                <p>Card</p>
-                <div>
-                  <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <h4><a href="#">Polisse</a></h4>
+                <div class="stars">
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star"></i>
+                  <i class="ion-ios-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, expedita... <a href="#!">Lire plus</a>  </p>
+                <div class="text-warning">
+                  19h00
                 </div>
               </div>
             </div>
@@ -212,11 +248,17 @@
             <div class="portfolio-wrap">
               <img src="img/films/enfants/2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Card 3</a></h4>
-                <p>Card</p>
-                <div>
-                  <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <h4><a href="#">Cro man</a></h4>
+                <div class="stars">
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star"></i>
+                  <i class="ion-ios-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, expedita... <a href="#!">Lire plus</a>  </p>
+                <div class="text-warning">
+                  19h00
                 </div>
               </div>
             </div>
@@ -227,10 +269,16 @@
               <img src="img/films/enfants/3.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="#">Web 1</a></h4>
-                <p>Web</p>
-                <div>
-                  <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <div class="stars">
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star text-warning"></i>
+                  <i class="ion-ios-star"></i>
+                  <i class="ion-ios-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, expedita... <a href="#!">Lire plus</a>  </p>
+                <div class="text-warning">
+                  19h00
                 </div>
               </div>
             </div>
@@ -249,18 +297,16 @@
       <div class="container">
 
         <header class="section-header">
-          <h3>A propos</h3>
+          <h3 class="text-white font-weight-bold">A propos</h3>
           
         </header>
 
-        <div class="row about-container">
+        <div class="row about-container text-white">
 
           <div class="col-lg-6 content order-lg-1 order-2">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dicta molestias, expedita ipsa libero fugiat qui nemo tempore, temporibus at ad esse quasi minima, accusamus iure, placeat nostrum sit enim.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dicta molestias, expedita ipsa libero fugiat qui nemo tempore, temporibus at ad esse quasi minima, accusamus iure, placeat nostrum sit enim.
+              Open Air Cinema développe des produits de cinéma en plein air innovants qui divertissent les masses, rassemblent les communautés, renforcent le moral des hommes et des femmes qui servent dans les forces armées du monde entier et offrent des expériences engageantes et divertissantes aux familles et amis du monde entier. Notre cas est simple - personne ne connaît le métier des films en extérieur comme nous le faisons - un point c'est tout. Nous sommes des leaders mondiaux dans le secteur en plein essor du cinéma en plein air.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi minus a obcaecati temporibus voluptatem. Illum laborum animi quaerat ut quia! Suscipit vel ipsa ducimus modi perspiciatis laudantium perferendis, reprehenderit inventore.
              
               
             </p>
@@ -268,8 +314,8 @@
             
           </div>
 
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-            <img src="img/about-img.svg" class="img-fluid" alt="">
+          <div class="col-lg-6  order-lg-2 order-1 wow fadeInUp">
+            <img src="img/about.jpg" class="img-fluid rounded" alt="">
           </div>
         </div>
 
@@ -277,14 +323,16 @@
           <div class="col-lg-6 wow fadeInUp">
             <img src="img/about-extra-1.svg" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-            <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0 text-white">
+            <h4>ENGAGEMENT DE QUALITÉ</h4>
             <p>
-              Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
+              Nos écrans gonflables sont de fabrication française afin que nous puissions suivre de près le processus de fabrication. Il en résulte des produits solides, faciles à utiliser et très durables.
             </p>
+                <h4>PRODUITS À USAGE COMMUNAUTAIRE ET PERSONNEL</h4>
             <p>
-              Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
+             Personne n’a fait plus de productions en plein air que nous - nous savons ce que nous faisons. En tant que tels, nous avons exploité cette expertise pour en tirer les systèmes de théâtre en plein air de qualité théâtrale les plus concis et les plus faciles à utiliser du marché. 
             </p>
+
           </div>
         </div>
 
@@ -320,150 +368,59 @@
     </section><!-- #services -->
 
     <!--==========================
-      Why Us Section
+      Nos services
     ============================-->
     <section id="why-us" class="wow fadeIn">
       <div class="container">
         <header class="section-header">
-          <h3>Nos services</h3>
+          <h3>Actualités</h3>
         </header>
 
         <div class="row row-eq-height justify-content-center">
 
           <div class="col-lg-4 mb-4">
             <div class="card wow bounceInUp">
-                <i class="fa fa-diamond"></i>
-              <div class="card-body">
-                <h5 class="card-title">Corporis dolorem</h5>
-                <p class="card-text">Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.</p>
-                <a href="#" class="readmore">Read more </a>
-              </div>
+                <img src="img/actus/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Après Death Stranding, Hideo Kojima veut se lancer dans le cinéma</h5>
+                  <p class="card-text">C’est dans une interview donnée à l’occasion de la sortie du jeu Death Stranding (lire notre test ici) ...</p>
+                  <a href="#!" class="card-text"><small class=" text-info">Lire la suite</small></a>
+                </div>
             </div>
           </div>
 
           <div class="col-lg-4 mb-4">
             <div class="card wow bounceInUp">
-                <i class="fa fa-language"></i>
-              <div class="card-body">
-                <h5 class="card-title">Voluptates dolores</h5>
-                <p class="card-text">Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.</p>
-                <a href="#" class="readmore">Read more </a>
-              </div>
+                <img src="img/actus/3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">C'est l'été avec le cinéma en plein air !</h5>
+                  <p class="card-text">Au programme cet été, un film d'animation qui nous incite à voir un monde aquatique se mêler au nôtre, ...</p>
+                  <a href="#!" class="card-text"><small class=" text-info">Lire la suite</small></a>
+                </div>
             </div>
           </div>
 
           <div class="col-lg-4 mb-4">
             <div class="card wow bounceInUp">
-                <i class="fa fa-object-group"></i>
-              <div class="card-body">
-                <h5 class="card-title">Eum ut aspernatur</h5>
-                <p class="card-text">Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. </p>
-                <a href="#" class="readmore">Read more </a>
-              </div>
+                <img src="img/actus/2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Les réseaux sociaux ont-ils tué les stars de cinéma?</h5>
+                  <p class="card-text">De plus en plus de comédien·nes choisissent de se dévoiler sur Instagram, YouTube ou Twitter, rompant une longue tradition ...</p>
+                  <a href="#!" class="card-text"><small class=" text-info">Lire la suite</small></a>
+                </div>
             </div>
           </div>
 
         </div>
 
-        <div class="row counters">
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">274</span>
-            <p>Clients</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">421</span>
-            <p>Projects</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1,364</span>
-            <p>Hours Of Support</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">18</span>
-            <p>Hard Workers</p>
-          </div>
-  
-        </div>
 
       </div>
     </section>
 
 
     <!--==========================
-      Clients Section
-    ============================-->
-    <section id="testimonials" class="section-bg">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>Temoignages</h3>
-        </header>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-
-            <div class="owl-carousel testimonials-carousel wow fadeInUp">
-    
-              <div class="testimonial-item">
-                <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                </p>
-              </div>
-    
-              <div class="testimonial-item">
-                <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <p>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                </p>
-              </div>
-    
-              <div class="testimonial-item">
-                <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <p>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                </p>
-              </div>
-    
-              <div class="testimonial-item">
-                <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <p>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                </p>
-              </div>
-    
-              <div class="testimonial-item">
-                <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <p>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                </p>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-
-
-      </div>
-    </section><!-- #testimonials -->
-
-    <!--==========================
-      Team Section
+      Notre Equipe
     ============================-->
     <section id="team" class="section-bg">
       <div class="container">
@@ -552,77 +509,9 @@
     </section><!-- #team -->
 
     <!--==========================
-      Clients Section
-    ============================-->
-    <section id="clients" class="section-bg">
-
-      <div class="container">
-
-        <div class="section-header">
-          <h3>Our CLients</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</p>
-        </div>
-
-        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-1.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-2.png" class="img-fluid" alt="">
-            </div>
-          </div>
-        
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-3.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-4.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-5.png" class="img-fluid" alt="">
-            </div>
-          </div>
-        
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-6.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-7.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-8.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-    <!--==========================
       Contact Section
     ============================-->
-    <section id="contact">
+    <section id="contact" class="section-bg">
       <div class="container-fluid">
 
         <div class="section-header">
@@ -656,7 +545,7 @@
             <div class="form">
               <div id="sendmessage">Votre message a été envoyé. Merci!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              <form  method="post" role="form" class="contactForm">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" data-rule="minlen:4" data-msg="Veuillez entrer au moins 4 caractères" />
@@ -706,8 +595,7 @@
               <li><a href="#">Accuei</a></li>
               <li><a href="#">A propos</a></li>
               <li><a href="#">S'inscrire</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Mentions legales</a></li>
             </ul>
           </div>
 
@@ -733,7 +621,7 @@
           <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Notre Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-            <form action="" method="post">
+            <form  method="post">
               <input type="email" name="email"><input type="submit"  value="Subscribe">
             </form>
           </div>
@@ -751,8 +639,7 @@
   </footer><!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <!-- Uncomment below i you want to use a preloader -->
-  <!-- <div id="preloader"></div> -->
+  
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
@@ -769,7 +656,7 @@
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
-  <!-- Template Main Javascript File -->
+  <!-- Template Main Javascript  -->
   <script src="js/main.js"></script>
 
 </body>

@@ -1,9 +1,3 @@
-/*
-  Theme Name: NewBiz
-  Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -175,7 +169,7 @@ h6 {
   position: relative;
   background: url("../img/films/drames/1.jpg") center top no-repeat;
   background-size: cover;
-  padding: 200px 0 120px 0;
+  padding: 200px 0 10px 0;
 }
 
 #intro .intro-img {
@@ -188,20 +182,20 @@ h6 {
   float: left;
 }
 
-#intro .intro-info h2 {
+#intro  h2 {
   color: #fff;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
 }
 
-#intro .intro-info h2 span {
+#intro  h2 span {
   color: #74b5fc;
   text-decoration: underline;
 }
 
-#intro .intro-info .btn-get-started,
-#intro .intro-info .btn-services {
+#intro  .btn-get-started,
+#intro  .btn-services {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -226,11 +220,11 @@ h6 {
   color: #fff;
 }
 
-#intro .intro-info .btn-services {
+#intro  .btn-services {
   border: 2px solid #fff;
 }
 
-#intro .intro-info .btn-services:hover {
+#intro .btn-services:hover {
   background: #007bff;
   border-color: #007bff;
   color: #fff;
@@ -1357,7 +1351,7 @@ h6 {
     margin: 0 auto 25px auto;
   }
 
-  #intro .intro-info {
+  #intro  {
     width: 80%;
     float: none;
     margin: auto;
